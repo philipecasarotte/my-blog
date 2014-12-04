@@ -1,3 +1,5 @@
+[ ![Codeship Status for philipecasarotte/my-blog](https://codeship.com/projects/7250b600-5d9e-0132-51b1-72d241f098bc/status)](https://codeship.com/projects/51126)
+
 Personal Blog
 =======
 

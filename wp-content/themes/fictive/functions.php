@@ -60,6 +60,12 @@ function fictive_setup() {
 		'comment-form',
 		'gallery',
 	) );
+
+	/**
+	 * Add support for Eventbrite.
+	 * See: https://wordpress.org/plugins/eventbrite-api/
+	 */
+	add_theme_support( 'eventbrite' );
 }
 endif; // fictive_setup
 add_action( 'after_setup_theme', 'fictive_setup' );
@@ -181,3 +187,11 @@ function fictive_admin_scripts( $hook_suffix ) {
 
 }
 add_action( 'admin_enqueue_scripts', 'fictive_admin_scripts' );
+
+/**
+ * Remove the separator from Eventbrite events meta.
+ */
+function edin_remove_meta_separator() {
+	return false;
+}
+add_filter( 'eventbrite_meta_separator', 'edin_remove_meta_separator' );

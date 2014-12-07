@@ -68,6 +68,10 @@ Featured Images look best at 634 pixels wide or larger, and are displayed above 
 
 == Changelog ==
 
+= 1.1 - Nov 27 2014 =
+* Add support for the Eventbrite API plugin.
+* Improve caption display.
+
 = 1.0.2 - August 2014 =
 * Fix for mobile devices where screen would jump around when scrolling/resized
 * Add left position to screen-reader-text on the toggles to remove horizontal scroll on mobile/tablet

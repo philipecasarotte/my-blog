@@ -3,7 +3,7 @@
  * Author: Automattic
  * Author URI: https://wordpress.com/themes/
  * Description: Fictive is all about you -- your style, your look, your story. Make it personal with a custom header image, a Gravatar, and links to your favorite social networks. Use Post Formats to dress up your content, add a custom menu and widgets, or keep it simple with a fixed-position header.
- * Version: 1.0.2
+ * Version: 1.1
  * License: GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: fictive
@@ -523,7 +523,7 @@ a .post-date:before, .page-title:before, .site-content [class*="paging-navigatio
 }
 
 .entry-format, .hentry:before {
-  background: #1e73be;
+  background: #bd5532;
   border-radius: 80px 80px 0 0;
   color: white;
   display: block;
@@ -588,7 +588,7 @@ textarea {
 
 /* Headings */
 h1 {
-  color: #1e73be;
+  color: #bd5532;
   font-family: "Bitter", Georgia, Times, serif;
   font-size: 46px;
   font-weight: normal;
@@ -597,7 +597,7 @@ h1 {
 }
 
 h2 {
-  color: #1e73be;
+  color: #bd5532;
   font-family: "Bitter", Georgia, Times, serif;
   font-size: 26px;
   font-weight: normal;
@@ -606,7 +606,7 @@ h2 {
 }
 
 h3 {
-  color: #1e73be;
+  color: #bd5532;
   font-family: "Bitter", Georgia, Times, serif;
   font-size: 20px;
   font-weight: normal;
@@ -615,7 +615,7 @@ h3 {
 }
 
 h4 {
-  color: #1e73be;
+  color: #bd5532;
   font-family: "Bitter", Georgia, Times, serif;
   font-size: 16px;
   font-weight: normal;
@@ -624,7 +624,7 @@ h4 {
 }
 
 h5 {
-  color: #1e73be;
+  color: #bd5532;
   font-family: "Bitter", Georgia, Times, serif;
   font-size: 16px;
   font-weight: normal;
@@ -633,7 +633,7 @@ h5 {
 }
 
 h6 {
-  color: #1e73be;
+  color: #bd5532;
   font-family: "Bitter", Georgia, Times, serif;
   font-size: 13px;
   font-weight: normal;
@@ -650,7 +650,7 @@ h6 {
 }
 
 hr {
-  background-color: #1e73be;
+  background-color: #6f9d9f;
   height: 1px;
   margin-bottom: 23px;
   padding: 0;
@@ -745,7 +745,7 @@ input[type="submit"] {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #1e73be;
+  background-color: #6f9d9f;
   border: 0;
   border-radius: 2px;
   color: #efedea;
@@ -766,7 +766,7 @@ input[type="submit"]:hover {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #1e73be;
+  background-color: #bd5532;
 }
 @media screen and (max-width: 51em) {
   button,
@@ -923,7 +923,7 @@ img {
 
 /* Links */
 a {
-  color: #1e73be;
+  color: #bd5532;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -931,10 +931,10 @@ a {
   transition: all 0.2s ease-in-out;
 }
 a:visited {
-  color: #1e73be;
+  color: #bd5532;
 }
 a:hover, a:focus, a:active {
-  color: #1e73be;
+  color: #6f9d9f;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -1025,7 +1025,7 @@ a:hover, a:focus, a:active {
 /* =Header */
 .site-header {
   float: left;
-  margin-top: 72px;
+  margin-top: 80px;
   margin-bottom: 0;
   position: relative;
   width: 17.4em;
@@ -1044,7 +1044,7 @@ a:hover, a:focus, a:active {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   display: block;
-  margin: 0 auto 7px;
+  margin: -8px auto 7px;
   opacity: 0.8;
   position: relative;
   z-index: -2;
@@ -1092,7 +1092,7 @@ a:hover, a:focus, a:active {
   position: relative;
 }
 .site-branding:after {
-  border-top: 8px solid #1e73be;
+  border-top: 8px solid #bd5532;
   content: "";
   position: absolute;
   top: -8px;
@@ -1129,7 +1129,7 @@ a:hover, a:focus, a:active {
   text-align: center;
 }
 .site-title a {
-  color: #1e73be;
+  color: #bd5532;
   padding: 0;
   text-decoration: none;
 }
@@ -1182,7 +1182,7 @@ a:hover, a:focus, a:active {
 }
 .main-navigation a {
   border-bottom: 1px solid #e4e1dc;
-  color: #1e73be;
+  color: #6f9d9f;
   display: block;
   margin-bottom: 6px;
   padding: 12px 24px;
@@ -1190,11 +1190,11 @@ a:hover, a:focus, a:active {
   text-decoration: none;
 }
 .main-navigation a:hover {
-  color: #1e73be;
+  color: #bd5532;
 }
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a {
-  color: #1e73be;
+  color: #bd5532;
 }
 @media screen and (max-width: 51em) {
   .main-navigation {
@@ -1212,7 +1212,7 @@ a:hover, a:focus, a:active {
 .menu-toggle {
   font-size: 1.625em;
   line-height: 1.84615em;
-  background-color: #1e73be;
+  background-color: #6f9d9f;
   clear: none;
   color: white;
   cursor: pointer;
@@ -1267,7 +1267,7 @@ a:hover, a:focus, a:active {
   height: 48px;
 }
 .header-search input[type="submit"] {
-  background-color: #1e73be;
+  background-color: #bd5532;
   display: block;
   margin: 0;
   position: absolute;
@@ -1330,7 +1330,7 @@ a:hover, a:focus, a:active {
   position: relative;
 }
 .hentry:after {
-  border-top: 8px solid #1e73be;
+  border-top: 8px solid #bd5532;
   content: "";
   position: absolute;
   top: -8px;
@@ -1352,10 +1352,10 @@ a:hover, a:focus, a:active {
   content: "\f443";
 }
 .hentry.sticky:after, .hentry.format-image:after {
-  border-top-color: #1e73be;
+  border-top-color: #6f9d9f;
 }
 .hentry.sticky:before, .hentry.format-image:before {
-  background: #1e73be;
+  background: #6f9d9f;
   content: "\f308";
 }
 .hentry.format-image:before {
@@ -1486,7 +1486,7 @@ a:hover, a:focus, a:active {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #1e73be;
+  background-color: #bd5532;
   display: inline-block;
   border-radius: 50%;
   color: white;
@@ -1516,7 +1516,7 @@ a:hover, a:focus, a:active {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #1e73be;
+  background-color: #bd5532;
 }
 
 a.more-link {
@@ -1531,12 +1531,12 @@ a.more-link {
 
 .entry-title {
   line-height: 1.25217em;
-  color: #1e73be;
+  color: #bd5532;
   margin: 12px 0;
   text-align: center;
 }
 .entry-title a {
-  color: #1e73be;
+  color: #bd5532;
   text-decoration: none;
 }
 @media screen and (max-width: 51em) {
@@ -1658,7 +1658,7 @@ a .post-date:before {
   margin: 12px 0 12px 11px;
 }
 .tags-links a {
-  background-color: #1e73be;
+  background-color: #6f9d9f;
   color: white;
   display: block;
   float: left;
@@ -1668,21 +1668,21 @@ a .post-date:before {
   position: relative;
 }
 .tags-links a:hover {
-  background-color: #1e73be;
+  background-color: #bd5532;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .tags-links a:hover:after {
-  background-color: #1e73be;
+  background-color: #bd5532;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .tags-links a:after {
-  background-color: #1e73be;
+  background-color: #6f9d9f;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -1848,6 +1848,7 @@ a .post-date:before {
   line-height: 1.84615em;
   margin: 12px 0;
   padding: 0 1%;
+  word-wrap: break-word;
 }
 
 .size-thumbnail + .wp-caption-text,
@@ -2132,7 +2133,7 @@ div#respond {
 .comment-author {
   font-size: 1.25em;
   line-height: 1.2em;
-  color: #1e73be;
+  color: #bd5532;
   font-family: "Bitter", Georgia, Times, serif;
   text-align: center;
 }
@@ -2217,7 +2218,7 @@ div#respond {
 }
 
 .comment-respond {
-  border-top: 8px solid #1e73be;
+  border-top: 8px solid #bd5532;
 }
 
 .comment-reply-title {
@@ -2243,7 +2244,7 @@ div#respond {
 }
 
 .required {
-  color: #1e73be;
+  color: #bd5532;
 }
 
 .comment-form-author,
@@ -2353,7 +2354,7 @@ div#respond {
   font-size: 1.25em;
   line-height: 1.2em;
   border-bottom: 1px solid #e4e1dc;
-  color: #1e73be;
+  color: #6f9d9f;
   font-weight: bold;
   margin: 12px 0;
   padding: 12px 24px;
@@ -2361,7 +2362,7 @@ div#respond {
   text-transform: uppercase;
 }
 .widget-title a {
-  color: #1e73be;
+  color: #6f9d9f;
 }
 
 .widget input[type="text"] {
@@ -2392,7 +2393,7 @@ div#respond {
 }
 .wp_widget_tag_cloud div a,
 .widget_tag_cloud .tagcloud a {
-  color: #1e73be;
+  color: #bd5532;
   text-decoration: none;
 }
 
@@ -2455,7 +2456,7 @@ div#respond {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #1e73be;
+  background: #6f9d9f;
   border-radius: 2px;
   color: white;
   display: block;
@@ -2468,7 +2469,7 @@ div#respond {
   width: 140px;
 }
 #infinite-handle span:hover {
-  background: #1e73be;
+  background: #bd5532;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -2507,7 +2508,7 @@ div.sharedaddy div.sd-block {
   text-decoration: none;
 }
 .social-links ul a:before {
-  background: #1e73be;
+  background: #6f9d9f;
   border-radius: 50%;
   color: white;
   content: "\f415";
@@ -2529,7 +2530,7 @@ div.sharedaddy div.sd-block {
   text-decoration: none;
 }
 .social-links ul a:hover:before {
-  background: #1e73be;
+  background: #bd5532;
   text-decoration: none;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
@@ -2584,4 +2585,36 @@ div.sharedaddy div.sd-block {
 }
 .social-links ul a[href*="/feed"]:before {
   content: "\f413";
+}
+
+/* =Eventbrite */
+.eventbrite-event .entry-meta span:before {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Genericons";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-decoration: none;
+  vertical-align: text-bottom;
+}
+.hentry.eventbrite-event:before {
+  content: "\f305";
+}
+.eventbrite-event .entry-meta > span {
+  display: inline-block;
+  margin: 0 8px;
+  width: auto;
+}
+.eventbrite-event .event-time:before {
+  content: "\f307";
+}
+.eventbrite-event .event-venue-text:before {
+  content: "\f417";
+}
+.eventbrite-event .event-organizer-text:before {
+  content: "\f304";
+}
+.eventbrite-event .event-details-text:before {
+  content: "\f455";
 }

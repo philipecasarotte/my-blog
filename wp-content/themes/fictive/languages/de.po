@@ -10,9 +10,11 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Fictive\n"
 
+#. Author URI of the plugin/theme
 msgid "https://wordpress.com/themes/"
 msgstr ""
 
+#. Description of the plugin/theme
 msgid "Fictive is all about you -- your style, your look, your story. Make it personal with a custom header image, a Gravatar, and links to your favorite social networks. Use Post Formats to dress up your content, add a custom menu and widgets, or keep it simple with a fixed-position header."
 msgstr ""
 
@@ -113,6 +115,9 @@ msgstr "Suchen"
 msgid "Widgets"
 msgstr "Widgets"
 
+#. translators: If there are characters in your language that are not supported
+#. by Bitter, translate this to 'off'. Do not translate into your own
+#. language.
 #: functions.php:162
 msgctxt "Bitter font: on or off"
 msgid "on"
@@ -122,6 +127,9 @@ msgstr "on"
 msgid "Menu"
 msgstr "Menü"
 
+#. translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
 #: functions.php:153
 msgctxt "Open Sans font: on or off"
 msgid "on"
